@@ -1,16 +1,19 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@300&family=Poppins:wght@200&display=swap');
 /* Global */
 
 *{
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-weight: bold;
+    text-align: right;
 }
 
 a{
-    text-decoration: none;
+    text-decoration:none !important;
 }
 
 ul{
@@ -19,48 +22,52 @@ ul{
 }
 
 .active{
-    color: #fc036b;
+    color: #f05a14 !important;
     text-decoration: underline;
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 body , html{
     overflow-x: hidden;
 }
 
-.navbar{
+.hnavbar{
     position: absolute;
     top: 0;
     left: 0;
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding: 20px;
+    padding-top: 10px;
     color: whitesmoke;
+    background-color:rgba(240, 90, 20,0.4);
+    margin: 0;
 }
 
 .nav-links{
     display: flex;
     align-items: center;
+    color: white;
 }
 
 .nav-links li{
     margin: 0 30px;
 }
 
-header{
+.header{
+    margin: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url('./img/header-bg.png');
     background-position: bottom;
     background-size: cover;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    background-image: url('./img/خلفيه\ من\ نحن.jpg');
 }
 
 .header-content{
-    margin-bottom: 150px;
+    margin-bottom: 350px;
     color: whitesmoke;
     text-align: center;
 }
@@ -70,9 +77,9 @@ header{
 }
 
 .line{
-    width: 150px;
+    width: 450px;
     height: 4px;
-    background: #fc036b;
+    background: #f05a14;
     margin: 10px auto;
     border-radius: 5px;
 }
@@ -85,7 +92,7 @@ header{
 
 .ctn{
     padding: 8px 15px;
-    background: #fc036b;
+    background: #f05a14;
     border-radius: 30px;
     color: white;
     cursor: pointer;
@@ -282,5 +289,5 @@ img:hover{
  
 .ctn:hover{
     background: whitesmoke;
-    color: #fc036b;
+    color: #f05a14;
 }
