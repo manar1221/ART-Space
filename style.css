@@ -239,6 +239,19 @@ p{
     margin: 20px auto;
 }
 
+img{
+    transition: transform .3s ease;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+ 
+.ctn:hover{
+    background: whitesmoke;
+    color: #f05a14;
+}
+
 @media only screen and (max-width:850px){
     .menu-btn{
         display: block;
@@ -277,17 +290,4 @@ p{
     .col img{
         max-width: 90%;
     }
-}
-
-img{
-    transition: transform .3s ease;
-}
-
-img:hover{
-    transform: scale(1.1);
-}
- 
-.ctn:hover{
-    background: whitesmoke;
-    color: #f05a14;
 }
