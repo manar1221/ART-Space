@@ -121,7 +121,7 @@ section{
 
 .row{
     display: flex;
-    align-items: center;
+    align-items: start;
     width: 100%;
     justify-content: space-between;
 }
