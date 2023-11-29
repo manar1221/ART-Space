@@ -55,15 +55,15 @@ body , html{
 }
 
 .header{
-    margin: 0;
+    /* margin: 0;
     width: 100vw;
     height: 100vh;
     background-position: bottom;
     background-size: cover;
     display: flex;
     align-items: flex-end;
-    justify-content: center;
-    background-image: url('./img/خلفيه\ من\ نحن.jpg');
+    justify-content: center; */
+    /* background-image: url('./img/خلفيه\ من\ نحن.jpg'); */
 }
 
 .header-content{
@@ -252,6 +252,11 @@ img:hover{
     color: #f05a14;
 }
 
+.slide_img{
+    width: 100%;
+    height: 850px;
+}
+
 @media only screen and (max-width:850px){
     .menu-btn{
         display: block;
@@ -287,7 +292,10 @@ img:hover{
     .row .col{
         margin: 20px auto;
     }
-    .col img{
+    /* .col img{
         max-width: 90%;
+    } */
+    .slide_img{
+        height: 350px;
     }
 }
