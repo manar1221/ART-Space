@@ -2,164 +2,172 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ART Space</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="./style.css">
+    <!-- bootstrap link -->
+    
+    <!-- icons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- icons -->
 
-    <!-- BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
 </head>
-<body class="pt-5">
-    <!-- Navbar -->
-    <nav class="hnavbar">
-        <a class="navbar-brand m-4 mt-0 mb-0" href="index.html">
-            <img
-              src="./img/logo.png"
-              height="60"
-              alt="ART SPACE"
-              loading="lazy"
-            />
-          </a>
-          <ul class="nav-links">
-            <li><a href="contact.html" class="nav-link"> تواصل معنا</a> </li>
-            <li><a href="about.html" class="nav-link"> من نحن</a> </li>
-            <li><a href="family.html" class="nav-link"> منح المؤسسات الأهلية</a> </li>
-            <li><a href="child.html" class="nav-link"> برنامج الطفل</a> </li>
-            <li><a href="young.html" class="nav-link"> برنامج الشباب</a> </li>
-            <li><a href="courses.html" class="nav-link"> تدريبات وكورسات</a> </li>
-            <li><a href="index.html" class="active nav-link">الرئيسية</a></li>         
-        </ul>
-        <img src="./img/menu-btn.png" alt="" class="menu-btn">
-    </nav>
-
-        <div id="carouselExampleCaptions" class="carousel slide pt-3">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<body>
+    <!-- navbar top -->
+    <div class="container">
+        <div class="navbar-top">
+            <div class="social-link">
+                <!-- <i><img src="./img/twitter.png" alt="" width="30px"></i> -->
+                <i><img src="./img/facebook.png" alt="" width="30px"></i>
+                <i><img src="./img/google-plus.png" alt="" width="30px"></i>
             </div>
-
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/back.jpg" class="d-block slide_img" alt="...">
-                <div class="carousel-caption d-none d-md-block mb-5">
-                    <h2 class="mb-3 text-center">نسعى لإيجاد مساحات فنية حرة آمنة للشباب والأطفال تستند دعائمها على القيم المدنية والمبادئ الإنسانية</h2>
-                    <div class="line mb-5"></div>            
-                    <a href="#servise" class="ctn me-5">خدماتنا</a>
-                    <a href="about.html" class="ctn ">من نحن</a>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <img src="img/grop.jpg" class="d-block slide_img" alt="..." >
-                <div class="carousel-caption d-none d-md-block">
-                  <h5  class="text-center">Second slide label</h5>
-                  <div class="line mb-5"></div>
-                  <p  class="text-center">Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <img src="img/خلفيه من نحن.jpg" class="d-block slide_img" alt="..." >
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="text-center">Third slide label</h5>
-                  <div class="line mb-5"></div>
-                  <p  class="text-center">Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>              
+            <div class="logo">
+                <h3>ART Space</h3>
             </div>
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>      
-
-
-    <section style="margin-bottom: 150px; margin-top: 100px;" >
-        <div class="row">
-            <div class="col">
-                <div class="card">
-                    <img src="./img/برنامج الطفل.jpeg" class="card-img-top" alt=""/>
-                    <div class="card-body">
-                      <h5 class="card-title">برنامج الطفل</h5>
-                      <p class="card-text">نسعى الى تنمية مهارات وقدرات الاطفال من خلال العديد من التدريبات والورش الفنية</p>
-                      <a href="child.html" class="btn" style="background-color: #f05a14;">Check Out</a>
-                    </div>
-                  </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="./img/gro.jpg" class="card-img-top" alt=""/>
-                    <div class="card-body">
-                      <h5 class="card-title">برنامج الشباب</h5>
-                      <p class="card-text">نسعى الى خلق كوادر شبابية ذو كفاءة ومهارات عالية وتتحلى بالقيم الايجابية</p>
-                      <a href="young.html" class="btn" style="background-color: #f05a14;">Check Out</a>
-                    </div>
-                  </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="./img/grop.jpg" class="card-img-top" alt=""/>
-                    <div class="card-body">
-                      <h5 class="card-title">برنامج المجتمع</h5>
-                      <p class="card-text">نساهم فى اقامة موارد ثقافية داخل المجتمع من اجل رفع الوعي ومحاربة العادات السلبية</p>
-                      <a href="#!" class="btn" style="background-color: #f05a14;">Check Out</a>
-                    </div>
-                  </div>
+            <div class="icons">                
+                <a class="navbar-brand m-4 mt-0 mb-0" href="index.html">
+                    <img
+                      src="./img/logo.png"
+                      height="60"
+                      alt="ART SPACE"
+                      loading="lazy"
+                    />
+                  </a>
             </div>
         </div>
-    </section>
-
-    <div class="title" id="servise">
-        <h1 class="text-center fw-bolder"> خدماتنا </h1>
-        <div class="line"></div>
     </div>
-    <section style="background-image:url(./img/khadamat.jpg); background-repeat: no-repeat; background-size: cover;" class="h-100 p-5">
-        <div class="p-5 text-light">
-            <h2 class="text-center">أحدث مشاريعنا</h2>
-            <h1 class="text-center fw-bolder"> مبادرة بالألوان المصرية </h1>
-            <p class="text-center text-light p-4">
-                تهدف المبادرة الى خلق مساحة للتعبير من خلال الرسم والتلوين واعطاء لمسة جمالية للقري والاحياء المصرية, مع المحافظة الى الهوية الثقافية والشعبية لهذة المناطق. وتعد مبادرة بالألوان المصرية من اكبر المبادرات التى تنفذ داخل المجتمع وذلك بمشاركة الشباب والاطفال فى تصميم واختيار رسماتهم الخاصة التى تعبير عنهم ، وهى ايضا تعمل على رفع الحالة النفسية لسكان هذة المناطق وتشعرهم بالسعادة والانتماء لها
-            </p>
-            <p class="text-center text-light">
-                لتكون جزء من المبادرة وعضو من اعضاء فريق بالألوان المصرية من خلال الاستمارة التالية 
-                <a href="#!" class="btn btn-primary"> إنضم الان </a>
-            </p>
-            
+    <!-- navbar top -->
+
+    <!-- main content -->
+    <div class="main-content">
+        <nav class="navbar navbar-expand-md" id="navbar-color">
+           <div class="container">
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span><i><img src="./img/menu.png" alt="" width="30px"></i></span>
+            </button>
+          
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class=" nav-link"> الرئيسية </a>
+                </li>
+                <li class="nav-item">
+                    <a href="courses.html" class="nav-link"> تدريبات وكورسات </a>
+                </li>
+                <li class="nav-item">
+                    <a href="young.html" class="nav-link"> برنامج الشباب </a>
+                </li>
+                <li class="nav-item">
+                    <a href="child.html" class="nav-link"> برنامج الطفل </a>
+                </li>
+                <li class="nav-item">
+                    <a href="family.html" class="nav-link"> منح المؤسسات الأهلية </a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link"> من نحن </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link"> تواصل معنا </a>
+                  </li>
+              </ul>
+            </div>
+           </div> 
+          </nav>
+
+
+          <div class="content" style="direction: rtl;">
+            <h1>مساحة فن
+                <br> ART Space
+            </h1>
+            <p> مساحات فنية حرة آمنة للشباب والأطفال تستند دعائمها على القيم المدنية والمبادئ الإنسانية </p>
+            <div id="btn1"><a href="#services"><button> خدماتنا </button></a></div>
+          </div>
+          
+    </div>
+    <!-- main content -->
+
+    <!-- card1 -->
+    <div class="container" id="services">
+        <h3 class="text-center" style="padding-top: 30px;"> خدماتنا </h3>
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="./img/برنامج الطفل.jpeg" alt="" class="card image-top" height="200px">
+                    <div class="card-body">
+                        <h5 class="card-titel text-center"> برنامج الطفل </h5>
+                        <p class="text-center"> نسعى الى تنمية مهارات وقدرات الاطفال من خلال العديد من التدريبات والورش الفنية </p>
+                        <div id="btn2" class="text-center"><a href="child.html"><button> ... إعرف اكتر  </button></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="./img/gro.jpg" alt="" class="card image-top" height="200px">
+                    <div class="card-body">
+                        <h5 class="card-titel text-center"> برنامج الشباب </h5>
+                        <p class="text-center"> نسعى الى خلق كوادر شبابية ذو كفاءة ومهارات عالية وتتحلى بالقيم الايجابية </p>
+                        <div id="btn2" class="text-center"><a href=""><button> ... إعرف اكتر  </button></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="./img/grop.jpg" alt="" class="card image-top" height="200px">
+                    <div class="card-body">
+                        <h5 class="card-titel text-center"> برنامج المجتمع </h5>
+                        <p class="text-center"> نساهم فى اقامة موارد ثقافية داخل المجتمع من اجل رفع الوعي ومحاربة العادات السلبية </p>
+                        <div id="btn2" class="text-center"><a href=""><button> ... إعرف اكتر  </button></a></div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
-    
-
-    <!-- Footer -->
-<footer class="bg-dark text-center text-white footer">       
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2023 Copyright:
-      <a class="text-white" href="https://eltasmem.com/">eltasmem.com</a>
     </div>
-    <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
+    <!-- card1 -->
 
-    <!-- <script>
-        const menuBtn = document.querySelector('.menu-btn')
-        const navLinks = document.querySelector('.nav-links')
+    <!-- about -->
+    <div class="container">
+        <h1 class="text-center" style="margin-top: 50px;"> ! من نحن </h1>
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="card">
+                    <img src="./img/back.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-md-6 py-3 py-md-0 text-right">
+                <p> شركة مساحة فن لتقديم الخدمات العلمية والثقافية , وهى تهتم بالعمل على رعاية الطفولة والامومة على نطاق محافظات جمهورية مصر العربية و تعمل مساحة فن على غرس القيم الايجابية ومحاربة العادات السلبية داخل المجتمع من خلال خلق وابتكار ادوات واليات فنية جديدة تكون سهلة التداول الممارسة بين الاطفال والشباب و ايضا تكون بحمل فى مضمونها القيم المدنية مع مراعات اختلاف ثقافات المجتمعات التى نعمل بها  </p>
+                <div id="btn4"><button>... إعرف اكتر </button></div>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+     
+    <!-- footer -->
+    <footer id="footer">
+        <h1 class="text-center">ART Space</h1>
+        <div class="icons text-center">
+            <i class="bx bxl-twitter"></i>
+            <i class="bx bxl-facebook"></i>
+            <i class="bx bxl-google"></i>
+            <i class="bx bxl-instagram"></i>
+        </div>
+        <div class="copyright text-center">
+            &copy; Copyright <strong><span>ART Space</span></strong>. All Rights Reserved
+        </div>
+        <div class="credite text-center">
+            Designed By <a href="https://eltasmem.com" target="_blank">EL-Tasmeem Company</a>
+        </div>
+    </footer>
+    <!-- footer -->
 
-        menuBtn.addEventListener('click',()={
-            navLinks.classList.toggle('mobile-menu')
-        })
-    </script> -->
-
-    <!-- bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

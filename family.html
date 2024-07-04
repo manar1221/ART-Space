@@ -1,97 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ART Space</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="./style.css">
+    <!-- bootstrap link -->
+    
+    <!-- icons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- icons -->
 
-    <!-- BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
 </head>
+<body>
+    <!-- navbar top -->
+    <div class="container">
+        <div class="navbar-top">
+            <div class="social-link">
+                <i><img src="./img/twitter.png" alt="" width="30px"></i>
+                <i><img src="./img/facebook.png" alt="" width="30px"></i>
+                <i><img src="./img/google-plus.png" alt="" width="30px"></i>
+            </div>
+            <div class="logo">
+                <h3>ART Space</h3>
+            </div>
+            <div class="icons">
+                <!-- <i><img src="./image/search.png" alt="" width="20px"></i>
+                <i><img src="./image/heart.png" alt="" width="20px"></i>
+                <i><img src="./image/shopping-cart.png" alt="" width="25px"></i> -->
+                <a class="navbar-brand m-4 mt-0 mb-0" href="index.html">
+                    <img
+                      src="./img/logo.png"
+                      height="60"
+                      alt="ART SPACE"
+                      loading="lazy"
+                    />
+                  </a>
+            </div>
+        </div>
+    </div>
+    <!-- navbar top -->
 
-<body style="margin-top: 100px">
-    <!-- Navbar -->
-    <nav class="hnavbar">
-        <a class="navbar-brand m-4 mt-0 mb-0" href="index.html">
-            <img
-              src="./img/logo.png"
-              height="60"
-              alt="ART SPACE"
-              loading="lazy"
-            />
-          </a>
-          <ul class="nav-links">
-            <li><a href="contact.html" class="nav-link"> تواصل معنا</a> </li>
-            <li><a href="about.html" class="nav-link"> من نحن</a> </li>
-            <li><a href="family.html" class="active nav-link"> منح المؤسسات الأهلية</a> </li>
-            <li><a href="child.html" class="nav-link"> برنامج الطفل</a> </li>
-            <li><a href="young.html" class="nav-link"> برنامج الشباب</a> </li>
-            <li><a href="courses.html" class="nav-link"> تدريبات وكورسات</a> </li>
-            <li><a href="index.html" class="nav-link">الرئيسية</a></li>  
-        </ul>
-        <img src="./img/menu-btn.png" alt="" class="menu-btn">
-    </nav>
+    <nav class="navbar navbar-expand-md" id="navbar-color">
+      <div class="container">
+       <!-- Toggler/collapsibe Button -->
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+         <span><i><img src="./img/menu.png" alt="" width="30px"></i></span>
+       </button>
+     
+       <!-- Navbar links -->
+       <div class="collapse navbar-collapse" id="collapsibleNavbar">
+         <ul class="navbar-nav">
+           <li class="nav-item">
+               <a href="index.html" class=" nav-link"> الرئيسية </a>
+           </li>
+           <li class="nav-item">
+               <a href="courses.html" class="nav-link"> تدريبات وكورسات </a>
+           </li>
+           <li class="nav-item">
+               <a href="young.html" class="nav-link"> برنامج الشباب </a>
+           </li>
+           <li class="nav-item">
+               <a href="child.html" class="nav-link"> برنامج الطفل </a>
+           </li>
+           <li class="nav-item">
+               <a href="family.html" class="nav-link"> منح المؤسسات الأهلية </a>
+           </li>
+           <li class="nav-item">
+               <a href="about.html" class="nav-link"> من نحن </a>
+           </li>
+           <li class="nav-item">
+               <a href="contact.html" class="nav-link"> تواصل معنا </a>
+             </li>
+         </ul>
+       </div>
+      </div> 
+     </nav>         
 
    
-<section>
-  <h1 class="text-center fw-bolder mb-5"> منحة دعم الجمعيات والمؤسسات بالموقع الالكترونى </h1>
-  <div class="text-center">
-    <img src="./img/mn7a.jpg" alt="">
-  </div>
-  <div class="mb-5">
-    <p class="mt-5 text-black m-5">
-      أحدثت الثورة العلمية والتكنولوجية تطورها الحاسم فى العديد من أوجه الحياة المختلفة , وكان لها أفضل التأثير فى جانب تنمية وتطوير منظمات المجتمع المدنى , حيث أن هناك العديد من الدول العربية إستفادت من التطور التكنولوجى فى ربط مؤسسات المجتمع المدنى بعضها ببعض من خلال شبكة المعلومات , وعن طريق توفير قاعدة بيانات
-ضخمة سهلة الوصول إليها فى الوقت المناسب عن الجهات المانحة والداعمة للأعمال والأنشطة الخيرية وكذلك البيانات والمعلومات عن المستفيدين والمحتاجين للخدمات
-الخيرية , وغيرها من الفوائد التى تقدمها التطورات المختلفة لتكنولوجيا المعلومات والإتصالات وكان لها الفضل فى تطوير هذه المؤسسات.
-    </p>
-
-    <p class="mt-5 text-black m-5"> وبناء علية اطلقت مساحة فن مبادرتها لدعم مؤسسات المجتمع المدنى بالمواقع الالكترونية بالتعاون مع Smart Solution وهو فرق متخصص فى نظم المواقع وتطبيقات الالكترونية وذلك من خلال تصميم وتنفيذ وتدريب فريق مؤسسات المجتمع المدنى على المواقع الالكترونية بخصم 50% على تصميم المواقع الإلكترونية ودعم والصيانة لمدة 6 اشهر بعد انطلاق منصات الجمعيات </p>
-  </div>
-
-  <div class="line mb-5"></div>
-
-  <div class="mt-5">
-    <h2 class="fw-bolder text-center mt-5 mb-5"> خدمات ومزايا المنحة </h2>
-    <div class="row">
-      <div class="col-3 text-center">
-        <img class="img-fluid" src="./img/offer.jpg" alt="" >
-        <h5 class="text-center fw-medium mt-3"> خصم 50% على تكاليف التصميم والتشغيل </h5>
-      </div>
-
-      <div class="col-3 text-center">
-        <img class="img-fluid" src="./img/train.jpg" alt="" >
-        <h5 class="text-center fw-medium mt-3"> تدريب الفريق على استخدام الموقع </h5>
-      </div>
-
-      <div class="col-3 text-center">
-        <img class="img-fluid" src="./img/men.jpg" alt="" >
-        <h5 class="text-center fw-medium mt-3">  ودعم وصيانة مستمرة لمدة 6 اشهر </h5>
-      </div>
-
-      <div class="col-3 text-center">
-        <img class="img-fluid" src="./img/mail.jpg" alt="" >
-        <h5 class="text-center fw-medium mt-3"> عدد 10 بريد الكترونى إحترافي </h5>
-      </div>
-
+  <section class="pt-5 mt-5">
+    <h1 class="text-center fw-bolder mb-5"> منحة دعم الجمعيات والمؤسسات بالموقع الالكترونى </h1>
+    <div class="text-center">
+      <img src="./img/mn7a.jpg" alt="">
     </div>
-  </div>
+    <div class="mb-5">
+      <p class="mt-5 text-black m-5">
+        أحدثت الثورة العلمية والتكنولوجية تطورها الحاسم فى العديد من أوجه الحياة المختلفة , وكان لها أفضل التأثير فى جانب تنمية وتطوير منظمات المجتمع المدنى , حيث أن هناك العديد من الدول العربية إستفادت من التطور التكنولوجى فى ربط مؤسسات المجتمع المدنى بعضها ببعض من خلال شبكة المعلومات , وعن طريق توفير قاعدة بيانات
+  ضخمة سهلة الوصول إليها فى الوقت المناسب عن الجهات المانحة والداعمة للأعمال والأنشطة الخيرية وكذلك البيانات والمعلومات عن المستفيدين والمحتاجين للخدمات
+  الخيرية , وغيرها من الفوائد التى تقدمها التطورات المختلفة لتكنولوجيا المعلومات والإتصالات وكان لها الفضل فى تطوير هذه المؤسسات.
+      </p>
 
-</section>
-
-    <!-- Footer -->
-<footer class="bg-dark text-center text-white footer">       
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2023 Copyright:
-      <a class="text-white" href="https://eltasmem.com/">eltasmem.com</a>
+      <p class="mt-5 text-black m-5"> وبناء علية اطلقت مساحة فن مبادرتها لدعم مؤسسات المجتمع المدنى بالمواقع الالكترونية بالتعاون مع Smart Solution وهو فرق متخصص فى نظم المواقع وتطبيقات الالكترونية وذلك من خلال تصميم وتنفيذ وتدريب فريق مؤسسات المجتمع المدنى على المواقع الالكترونية بخصم 50% على تصميم المواقع الإلكترونية ودعم والصيانة لمدة 6 اشهر بعد انطلاق منصات الجمعيات </p>
     </div>
-    <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
+
+    <div class="line mb-5"></div>
+
+    <div class="mt-5">
+      <h2 class="fw-bolder text-center mt-5 mb-5"> خدمات ومزايا المنحة </h2>
+      <div class="row">
+        <div class="col-3 text-center">
+          <img class="img-fluid" src="./img/offer.jpg" alt="" >
+          <h5 class="text-center fw-medium mt-3"> خصم 50% على تكاليف التصميم والتشغيل </h5>
+        </div>
+
+        <div class="col-3 text-center">
+          <img class="img-fluid" src="./img/train.jpg" alt="" >
+          <h5 class="text-center fw-medium mt-3"> تدريب الفريق على استخدام الموقع </h5>
+        </div>
+
+        <div class="col-3 text-center">
+          <img class="img-fluid" src="./img/men.jpg" alt="" >
+          <h5 class="text-center fw-medium mt-3">  ودعم وصيانة مستمرة لمدة 6 اشهر </h5>
+        </div>
+
+        <div class="col-3 text-center">
+          <img class="img-fluid" src="./img/mail.jpg" alt="" >
+          <h5 class="text-center fw-medium mt-3"> عدد 10 بريد الكترونى إحترافي </h5>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+ <!-- footer -->
+ <footer id="footer">
+  <h1 class="text-center">ART Space</h1>
+  <div class="icons text-center">
+      <i class="bx bxl-twitter"></i>
+      <i class="bx bxl-facebook"></i>
+      <i class="bx bxl-google"></i>
+      <i class="bx bxl-instagram"></i>
+  </div>
+  <div class="copyright text-center">
+      &copy; Copyright <strong><span>ART Space</span></strong>. All Rights Reserved
+  </div>
+  <div class="credite text-center">
+      Designed By <a href="https://eltasmem.com" target="_blank">EL-Tasmeem Company</a>
+  </div>
+</footer>
+<!-- footer -->
 
     <!-- <script>
         const menuBtn = document.querySelector('.menu-btn')
